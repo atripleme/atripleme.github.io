@@ -1,0 +1,33 @@
+body {
+	background-color: #1c3643;
+	font-family: 'Bree serif', serif;
+}
+
+#logo-container {
+	padding-top: 4em;
+}
+
+#logo-container img {
+	width: 30%;
+	height: auto;
+}
+
+#social-container {
+	font-size: 75px;
+	padding: 0.4em;
+}
+
+#social-container a:hover {
+	color: #ee3f54;
+}
+
+@media only screen and (max-width: 40em) {
+	#logo-container img {
+		width: 80%;
+		height: auto;
+	}
+
+	#social-container {
+	padding: 0.2em;
+}
+}
