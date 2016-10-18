@@ -21,13 +21,18 @@ body {
 	color: #ee3f54;
 }
 
-@media only screen and (max-width: 40em) {
+@media (max-width: 768px) {
 	#logo-container img {
 		width: 80%;
 		height: auto;
 	}
 
 	#social-container {
-	padding: 0.2em;
-}
+		padding: 0.2em;
+	}
+
+	#social-container {
+		font-size: 70px;
+		padding: 0.4em;
+	}
 }
